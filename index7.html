@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="in"></div>
+<script>
+    for (let i=0;i<100;i++) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            document.write('<div>' + i + ':' + 'Fizz Buzz' + '</div>')
+        } else if (i % 3 == 0) {
+            document.write('<div>' + i + ':' + 'Fizz' + '</div>')
+        } else if (i % 5 == 0) {
+            document.write('<div>' + i + ':' + 'Buzz' + '</div>')
+        } else {
+            document.write('<div>' + i + '</div>')
+        }
+    }
+</script>
+
+</body>
+</html>
